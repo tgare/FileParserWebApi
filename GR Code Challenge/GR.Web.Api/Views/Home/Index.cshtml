@@ -1,0 +1,39 @@
+﻿<div id="body">
+    <ul id="records"></ul>
+</div>
+
+<form id="saveRecordForm" method="post">
+    <h3>Create a new Record</h3>
+    <p>
+        <label for="record">Record:</label>
+        <input type="text" name="record" />
+    </p>
+    <input type="button" id="saveRecord" value="Save" />
+</form>
+
+@section scripts{
+    <script type="text/javascript">
+        $(function() {
+            $.getJSON('/api/records', function(recordsJsonPayload) {
+                $(recordsJsonPayload).each(function(i, item) {
+                    $('#records').append('<li>' + item.LastName + '</li>');
+                });
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $('#saveRecord').click(function ()
+             {
+                  $.post("/api/records",
+                        $("#saveRecordForm").serialize(),
+                        function(value)
+                        {
+                             $('#records').append('<li>' + value + '</li>');
+                        },
+                        "json"
+                  );
+             });
+    </script>
+}
+

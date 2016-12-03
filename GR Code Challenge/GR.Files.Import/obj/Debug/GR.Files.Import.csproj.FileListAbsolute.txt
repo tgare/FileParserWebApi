@@ -1,0 +1,12 @@
+c:\users\gare\documents\visual studio 2015\Projects\GR Code Challenge\GR.Files.Import\bin\Debug\GR.Files.Import.exe.config
+c:\users\gare\documents\visual studio 2015\Projects\GR Code Challenge\GR.Files.Import\obj\Debug\GR.Files.Import.csprojResolveAssemblyReference.cache
+c:\users\gare\documents\visual studio 2015\Projects\GR Code Challenge\GR.Files.Import\bin\Debug\GR.Files.Import.exe
+c:\users\gare\documents\visual studio 2015\Projects\GR Code Challenge\GR.Files.Import\bin\Debug\GR.Files.Import.pdb
+c:\users\gare\documents\visual studio 2015\Projects\GR Code Challenge\GR.Files.Import\obj\Debug\GR.Files.Import.exe
+c:\users\gare\documents\visual studio 2015\Projects\GR Code Challenge\GR.Files.Import\obj\Debug\GR.Files.Import.pdb
+C:\Users\Gare\Google Drive\Programming Projects\GR Code Challenge\GR.Files.Import\bin\Debug\GR.Files.Import.exe.config
+C:\Users\Gare\Google Drive\Programming Projects\GR Code Challenge\GR.Files.Import\bin\Debug\GR.Files.Import.exe
+C:\Users\Gare\Google Drive\Programming Projects\GR Code Challenge\GR.Files.Import\bin\Debug\GR.Files.Import.pdb
+C:\Users\Gare\Google Drive\Programming Projects\GR Code Challenge\GR.Files.Import\obj\Debug\GR.Files.Import.csprojResolveAssemblyReference.cache
+C:\Users\Gare\Google Drive\Programming Projects\GR Code Challenge\GR.Files.Import\obj\Debug\GR.Files.Import.exe
+C:\Users\Gare\Google Drive\Programming Projects\GR Code Challenge\GR.Files.Import\obj\Debug\GR.Files.Import.pdb

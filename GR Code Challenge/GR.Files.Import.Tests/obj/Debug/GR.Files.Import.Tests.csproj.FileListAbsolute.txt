@@ -1,0 +1,17 @@
+c:\Users\Gare\documents\visual studio 2015\Projects\GR Code Challenge\GR.Files.Import.Tests\bin\Debug\GR.Files.Import.Tests.dll
+c:\Users\Gare\documents\visual studio 2015\Projects\GR Code Challenge\GR.Files.Import.Tests\bin\Debug\GR.Files.Import.Tests.pdb
+c:\Users\Gare\documents\visual studio 2015\Projects\GR Code Challenge\GR.Files.Import.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\Users\Gare\documents\visual studio 2015\Projects\GR Code Challenge\GR.Files.Import.Tests\obj\Debug\GR.Files.Import.Tests.csprojResolveAssemblyReference.cache
+c:\Users\Gare\documents\visual studio 2015\Projects\GR Code Challenge\GR.Files.Import.Tests\obj\Debug\GR.Files.Import.Tests.dll
+c:\Users\Gare\documents\visual studio 2015\Projects\GR Code Challenge\GR.Files.Import.Tests\obj\Debug\GR.Files.Import.Tests.pdb
+c:\Users\Gare\documents\visual studio 2015\Projects\GR Code Challenge\GR.Files.Import.Tests\bin\Debug\GR.Files.Import.exe
+c:\Users\Gare\documents\visual studio 2015\Projects\GR Code Challenge\GR.Files.Import.Tests\bin\Debug\GR.Files.Import.pdb
+C:\Users\Gare\Google Drive\Programming Projects\GR Code Challenge\GR.Files.Import.Tests\bin\Debug\GR.Files.Import.Tests.dll
+C:\Users\Gare\Google Drive\Programming Projects\GR Code Challenge\GR.Files.Import.Tests\bin\Debug\GR.Files.Import.Tests.pdb
+C:\Users\Gare\Google Drive\Programming Projects\GR Code Challenge\GR.Files.Import.Tests\bin\Debug\GR.Files.Import.exe
+C:\Users\Gare\Google Drive\Programming Projects\GR Code Challenge\GR.Files.Import.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Gare\Google Drive\Programming Projects\GR Code Challenge\GR.Files.Import.Tests\bin\Debug\GR.Files.Import.pdb
+C:\Users\Gare\Google Drive\Programming Projects\GR Code Challenge\GR.Files.Import.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Gare\Google Drive\Programming Projects\GR Code Challenge\GR.Files.Import.Tests\obj\Debug\GR.Files.Import.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Gare\Google Drive\Programming Projects\GR Code Challenge\GR.Files.Import.Tests\obj\Debug\GR.Files.Import.Tests.dll
+C:\Users\Gare\Google Drive\Programming Projects\GR Code Challenge\GR.Files.Import.Tests\obj\Debug\GR.Files.Import.Tests.pdb

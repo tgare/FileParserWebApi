@@ -26,7 +26,7 @@ namespace GR.Files.Import
             return data;
         }
 
-        internal void ProcessArguments(string[] args)
+        public void ProcessArguments(string[] args)
         {
             foreach (var arg in args)
             {
@@ -36,6 +36,7 @@ namespace GR.Files.Import
                 {
                     Stream stream = File.Open(filename, FileMode.Open);
                     this.LoadToDataTable(stream);
+                    stream.Close();
                 }
                 catch (FileNotFoundException e)
                 {
@@ -70,7 +71,7 @@ namespace GR.Files.Import
                 }
                 else
                 {
-                    if (isHeaderRow) { continue; }
+                    //if (isHeaderRow) { continue; }
 
                     data.Rows.Add(currentRow);
                 }

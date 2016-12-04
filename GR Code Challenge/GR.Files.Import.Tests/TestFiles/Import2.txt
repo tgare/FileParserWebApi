@@ -1,0 +1,5 @@
+LastName,FirstName,Gender,FavoriteColor,DateOfBirth
+Aran,Garry,M,Green,10/22/1984
+Bran,Angelica,F,Pink,07/27/1985
+Cran,Joshua,M,Blue,10/04/2015
+Dran,Olivia,M,Blue,01/04/2000

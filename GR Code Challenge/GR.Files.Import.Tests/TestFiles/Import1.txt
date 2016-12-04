@@ -1,0 +1,6 @@
+LastName|FirstName|Gender|FavoriteColor|DateOfBirth
+Sran|Garry|M|Green|10/22/1984
+Vran|Angelica|F|Pink|07/27/1985
+Bran|Joshua|M|Blue|10/04/2015
+Bootery|Scootery|F|Blue|08/10/1995
+Bolivia|Olivia|M|Blue|01/04/2000

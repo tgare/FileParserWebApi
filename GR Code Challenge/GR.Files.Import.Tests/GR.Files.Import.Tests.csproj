@@ -53,7 +53,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="DataImportTests.cs" />
-    <Compile Include="DataTableUtilsTests.cs" />
+    <Compile Include="UtilsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -61,6 +61,15 @@
       <Project>{a95ec987-cc5f-4a0f-bfc1-b8f493a93258}</Project>
       <Name>GR.Files.Import</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="TestFiles\Import1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestFiles\Import2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,6 +14,13 @@ namespace GR.Files.Import.Tests
     [TestClass()]
     public class DataImportTests
     {
+        public static string GetInputFile(string filename)
+        {
+            var directory = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+            var path = string.Format("{0}\\{1}\\{2}", directory, "TestFiles\\", filename);
+            return path;
+        }
+
         #region Tests: LoadToDataTable
 
         [TestMethod()]
@@ -121,5 +129,52 @@ Cran,Joshua,M,Blue,10/04/2015";
         }
 
         #endregion
+
+        [TestMethod()]
+        public void ProcessArguments_WithSingleFile_DataTableLoaded()
+        {
+
+            var importFile = "Import1.txt";
+            var importFile2 = "Import2.txt";
+
+            var data = new DataImport();
+
+            string[] args = new[] {GetInputFile(importFile)};
+
+            data.ProcessArguments(args);
+
+            Assert.AreEqual(data.GetDataTable().Rows.Count, 5);
+        }
+
+        [TestMethod]
+        public void ProcessArguments_WithMultipleFiles_DataTableLoaded()
+        {
+
+            var importFile = "Import1.txt";
+            var importFile2 = "Import2.txt";
+
+            var data = new DataImport();
+
+            string[] args = new[] { GetInputFile(importFile), GetInputFile(importFile2) };
+
+            data.ProcessArguments(args);
+
+            Assert.AreEqual(data.GetDataTable().Rows.Count, 9);
+
+
+        }
+
+        //[TestMethod]
+        //public void ProcessArguments_FileNotFound_Exception()
+        //{
+
+        //    var importFile = "Import100.txt";
+
+        //    var data = new DataImport();
+
+        //    string[] args = new[] { GetInputFile(importFile) };
+
+        //    data.ProcessArguments(args);
+        //}
     }
 }
